@@ -3,7 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-// import PaginaIdeias from './PaginaIdeias/PaginaIdeias.jsx'
+import PaginaIdeias from './PaginaIdeias/PaginaIdeias.jsx'
 import Box from './Box/Box.jsx'
 
 function App() {
