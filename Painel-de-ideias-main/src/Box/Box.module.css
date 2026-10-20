@@ -1,0 +1,18 @@
+.pagina {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: rgb(72, 70, 70);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+}
