@@ -49,7 +49,9 @@ return (
                     onClick={() => ideiaConcluida(ideia.id)}>
                     </input>
 
-                    <button>X</button>
+                    <button value={ideia.id}
+                    onClick={() => setIdeias(ideias.filter(i => i.id !== ideia.id))}
+                    >X</button>
                 </li>
             ))
             }
